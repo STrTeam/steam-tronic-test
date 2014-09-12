@@ -5,8 +5,8 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
-@Mod(modid = "constants.MODID", name = "constants.MODNAME", version = "constants.MODVERSION")
-public class stronicTest {
+@Mod(modid = "Constants.MODID", name = "Constants.NAME", version = "Constants.VERSION")
+public class StronicTest {
 
 	@Mod.EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
