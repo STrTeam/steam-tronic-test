@@ -1,5 +1,6 @@
 package test.testbasic.testmod;
 
+import test.testbasic.testmod.blocks.ModBlocks;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
@@ -10,6 +11,8 @@ public class StronicTest {
 
 	@Mod.EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
+		
+		ModBlocks.Init();
 		
 	}
 	
